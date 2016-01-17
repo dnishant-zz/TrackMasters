@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference android:title="@string/pref_prof1"
+        android:key="@string/pref_prof1_key"
+        android:defaultValue="Professor 1"
+        android:inputType="text"
+        android:singleLine="true"></EditTextPreference>
+    <EditTextPreference android:title="@string/pref_prof2"
+        android:key="@string/pref_prof2_key"
+        android:defaultValue="Professor 2"
+        android:inputType="text"
+        android:singleLine="true"></EditTextPreference>
+    <EditTextPreference android:title="@string/pref_prof3"
+        android:key="@string/pref_prof3_key"
+        android:defaultValue="Professor 3"
+        android:inputType="text"
+        android:singleLine="true"></EditTextPreference>
+    <EditTextPreference android:title="@string/gre_cost"
+        android:key="@string/gre_cost_key"
+        android:defaultValue="27"
+        android:inputType="number"
+        android:singleLine="true"></EditTextPreference>
+    <EditTextPreference android:title="@string/toefl_cost"
+        android:key="@string/toefl_cost_key"
+        android:defaultValue="19"
+        android:inputType="number"
+        android:singleLine="true"></EditTextPreference>
+    <EditTextPreference android:title="@string/courier"
+        android:key="@string/courier_key"
+        android:defaultValue="12"
+        android:inputType="number"
+        android:singleLine="true"></EditTextPreference>
+
+</PreferenceScreen>

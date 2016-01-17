@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!-- A view that only for directing the showcase View-->
+    <View android:id="@+id/settings_dummy"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="right"></View>
+
+    <TextView
+        android:id="@+id/txt_add_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Let's get started, already. Add an application."
+        android:textSize="@dimen/font_20sp"
+        android:gravity="center"
+
+    />
+    <ListView
+        android:id="@+id/university_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+    </ListView>
+
+        <Button
+        android:id="@+id/add_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="@drawable/btn_round"
+        android:textSize="16sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/white"
+        android:text="@string/add"
+        />
+
+        <Button
+            android:id="@+id/budget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_round"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="0"
+            android:text="@string/track_exp"/>
+
+</LinearLayout>

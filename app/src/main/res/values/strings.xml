@@ -1,0 +1,27 @@
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <string name="app_name">Track Master\'s</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add_aplication">Add an Application</string>
+    <string name="uni_name">University Name</string>
+    <string name="deadline">Application Deadline</string>
+    <string name="field">Application Course</string>
+    <string name="cost">Cost of Application (in $)</string>
+    <string name="add">Add Application</string>
+    <string name="track_exp">Track Expense</string>
+    <string name="title_activity_university_detail">CheckList</string>
+    <string name="title_activity_budget">Expenditure </string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="pref_prof1">Professor 1:</string>
+    <string name="pref_prof2">Professor 2:</string>
+    <string name="pref_prof3">Professor 3:</string>
+    <string name="pref_prof1_key">prof1_key</string>n
+    <string name="pref_prof2_key">prof2_key</string>
+    <string name="pref_prof3_key">prof3_key</string>
+    <string name="date_format">Deadline : <xliff:g id="date">%1$s</xliff:g></string>
+    <string name="gre_cost">Cost of sending GRE score($)</string>
+    <string name="gre_cost_key">GRE</string>
+    <string name="toefl_cost">Cost of sending TOEFL score($)</string>
+    <string name="toefl_cost_key">TOEFL</string>
+    <string name="courier">Cost of sending a courier(approx in $)</string>
+    <string name="courier_key">Courier</string>
+</resources>
